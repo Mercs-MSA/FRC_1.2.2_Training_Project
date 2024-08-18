@@ -8,7 +8,6 @@
 
 package frc.robot;
 
-import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.TimedRobot;
 
 // We add this line to enable us to create a Digital Input object
