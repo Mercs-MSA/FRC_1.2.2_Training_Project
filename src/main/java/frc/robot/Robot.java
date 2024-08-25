@@ -45,7 +45,7 @@ public class Robot extends TimedRobot {
   public void robotPeriodic() {
     my_output = my_discrete_input0.get();   // Read the digital output directly
     my_debounced_output = m_debouncer.calculate(my_discrete_input0.get());  // Read the same input, but filter it
-    
+
     my_discrete_output1.set(!my_output);
     my_discrete_output2.set(!my_debounced_output);
   }
